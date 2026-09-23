@@ -189,7 +189,7 @@ const CONTENT = {
       ctaTitle: "Let's Collaborate On Intelligent Data Systems",
       subhead: "Available for Machine Learning internships, data science roles, and technical collaborations.",
       nameLabel: "Your Name",
-      namePlaceholder: "e.g. Alexander Vance",
+      namePlaceholder: "e.g. Mariam Ahmed...",
       emailLabel: "Email Address",
       emailPlaceholder: "name@company.com",
       messageLabel: "Project or Inquiry Details",
@@ -200,6 +200,7 @@ const CONTENT = {
       successDesc: "Thank you for reaching out. I'll review your inquiry and respond within 24 hours.",
       emailLabelDirect: "Direct Email",
       phoneLabel: "Phone & WhatsApp",
+      telegramLabel: "Telegram",
       linkedinLabel: "LinkedIn",
       githubLabel: "GitHub",
       socialHeadline: "Connect Across Platforms"
@@ -244,7 +245,7 @@ const CONTENT = {
       tag2: "متدربة مبادرة DEPI"
     },
     marquee: [
-      "Mariam Ahmed Elgohr",
+      "Mariam Elgohr",
       "Machine Learning Engineer",
       "الشبكات العصبية والتعلم العميق",
       "مبادرة رواد مصر الرقمية (DEPI)",
@@ -392,7 +393,7 @@ const CONTENT = {
       tag: "07 / التواصل والتعاون",
       ctaTitle: "لنتعاون معاً في تطوير أنظمة بيانات ذكية",
       subhead: "متاحة لفرص العمل والتدريب في تعلم الآلة، علوم البيانات، والمشاريع الهندسية المبتكرة.",
-      nameLabel: "الاسم الكريم",
+      nameLabel: "الاسم ",
       namePlaceholder: "مثال: مريم أو محمد...",
       emailLabel: "البريد الإلكتروني",
       emailPlaceholder: "name@company.com",
@@ -404,6 +405,7 @@ const CONTENT = {
       successDesc: "شكراً لتواصلك. سأراجع رسالتك وأرد عليك خلال 24 ساعة بإذن الله.",
       emailLabelDirect: "البريد المباشر",
       phoneLabel: "الهاتف والواتساب",
+      telegramLabel: "تيليجرام",
       linkedinLabel: "لينكد إن",
       githubLabel: "جيت هَب",
       socialHeadline: "التواصل عبر المنصات"
@@ -2011,6 +2013,23 @@ function Contact({ lang }) {
                   </div>
                   <i className="fa-solid fa-arrow-up-right-from-square channel-card-arrow"></i>
                 </a>
+
+                {/* Telegram Card */}
+                <a
+                  href="https://t.me/+201285694985"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="contact-channel-card"
+                >
+                  <div className="channel-icon-wrap telegram-brand">
+                    <i className="fa-brands fa-telegram"></i>
+                  </div>
+                  <div className="channel-card-info">
+                    <span className="channel-sub-name">{t.telegramLabel}</span>
+                    <span className="channel-main-link" dir="ltr">+20 128 569 4985</span>
+                  </div>
+                  <i className="fa-solid fa-arrow-up-right-from-square channel-card-arrow"></i>
+                </a>
               </div>
             </div>
           </div>
@@ -2048,6 +2067,7 @@ function Contact({ lang }) {
               <a href="https://www.linkedin.com/in/mariam-elgohr" target="_blank" rel="noreferrer" className="footer-social-item">LinkedIn</a>
               <a href="https://github.com/mariamelgohrr" target="_blank" rel="noreferrer" className="footer-social-item">GitHub</a>
               <a href="https://wa.me/201285694985" target="_blank" rel="noreferrer" className="footer-social-item">WhatsApp</a>
+              <a href="https://t.me/+201285694985" target="_blank" rel="noreferrer" className="footer-social-item">Telegram</a>
             </div>
           </div>
         </div>

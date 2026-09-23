@@ -3325,6 +3325,11 @@ body.light-theme .github-brand {
   color: #25d366;
 }
 
+.telegram-brand {
+  background: rgba(36, 161, 222, 0.15);
+  color: #24A1DE;
+}
+
 .channel-card-info {
   display: flex;
   flex-direction: column;
