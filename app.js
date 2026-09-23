@@ -206,7 +206,7 @@ const CONTENT = {
       socialHeadline: "Connect Across Platforms"
     },
     footer: {
-      rights: "Designed & Engineered with 💜 by Mariam Elgohr",
+      rights: "Designed with 💜 by Mariam Elgohr",
       copyYear: "© 2026 Mariam Ahmed Elgohr • Powered by curiosity and machine learning algorithms 🚀"
     }
   },
